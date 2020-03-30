@@ -1,0 +1,280 @@
+<style type="text/css">
+
+
+*{
+	margin:  0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+body
+{
+	font-family: arial, helvetica, tahoma, sans-serif, Times;
+	font-size: 0.9em;
+	background-image: url(images/background2.png);
+	text-align: justify;
+    direction: ltr;
+}
+
+#container
+{
+	width: 860px;
+	margin: 0px auto 0px auto;  /* Top, Right, Bottom, Left */
+	border: 1px solid black;
+	background-color: white;
+}
+
+#container a:link, #container a:visited
+{
+	color: #D4AF37;
+	font-weight:normal;
+	text-decoration: none;
+}
+
+#container a:hover { color: #ffffff; }
+
+#top
+{
+	width: inherit;
+	margin: 0px;
+	padding: 0px;
+	height: 105px;
+	color: #FFFFFF;
+	background-color: #ff0000;
+}
+
+#top-left
+{
+	height: inherit;
+	font-size: 100%;
+	width: 310px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#top-left p
+{
+	font-size: 90%;
+	font-weight: bold;
+	background-color: #000000;
+	width: 350px;
+	height: 90px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#top-right
+{
+	padding-left: 0px;
+	margin: 0px;
+	height: inherit;
+	font-size: 85%;
+	font-weight: bold;
+	background-image: url(images/Top_img.png);
+	width: 470px;
+	float: right;
+	color: inherit;
+	text-align: left;
+	line-height: 150%;
+}
+
+#navbar
+{
+	border-top:    0px solid black;
+	border-bottom: 0px solid black;
+	background:-webkit-linear-gradient(top,black,gray, black);
+	background:linear-gradient(top,black,gray, black);
+}
+
+#navbar table
+{
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-size: 0.8em;
+	border : 2px;
+}
+
+#content
+{
+	width: 780px;
+	height: 588px;
+	background-color: rgb(00,00,00);
+	margin:  0px auto 0px auto; /* Top, Right, Bottom, Left */
+	padding: 30px 40px 30px 40px;
+	text-align: inherit;
+	color: rgb(255, 255, 255);
+	line-height: 125%;
+	float: right;
+}
+
+#content h1, #content h2, #content h3 { color: rgb(190, 190, 190); }
+
+#content h2, #content h3 { font-weight: normal; }
+
+#content h1
+{
+			font-size: 150%;
+			font-weight: lighter;
+			text-align: center;
+			/* text-transform: uppercase; */
+}
+
+#content h2 { font-size: 130%; }
+
+#content h3 { font-size: 120%; }
+
+#content h4 { font-size: 100%; }
+
+#content h1, h2, ul { line-height: 140% }
+
+#content img
+{
+	float: left;
+	/* border: 1px solid #000000; */
+	margin: 0px 10px 10px 0px;
+	padding: 2px;
+	background-color: #FFF;
+}
+
+#content ul
+{
+	list-style-type:none;
+	padding:10px;
+	margin:0px;
+	list-style-image:url('images/bullet.html');
+}
+
+#content li
+{
+	/* background-image:url(images/bullet.gif); */
+	background-repeat:no-repeat;
+	background-position:0px 2px;
+	padding-left:14px;
+}
+
+/* for a quoted paragraph - currenlty unused
+#main p.blue
+{
+	padding: 0px 15px 0px 15px;
+	color: rgb(0, 0, 127);
+	font-style:italic;
+}
+*/
+
+#content img.signature
+{
+	float: right;
+	border: 0 none #FFFFFF;
+	margin: 0 0px 0px 00px;
+	padding: 5px;
+	background-color: #FFF;
+
+	position: relative;
+	right:  -0px;
+	bottom: -0px;
+}
+
+#content p.answer
+{
+	color: rgb(0, 0, 55);
+}
+
+#content blockquote.testimonial
+{
+	border-style: ridge;
+	border-width: 4px;
+	border-color: #E0E0FF;
+
+	margin: 0px 0px 0px 00px;
+	padding: 0px 10px 0px 10px;
+	background-color: #FFF;
+
+	position: relative;
+	right: -0px;
+	bottom: -0px;
+
+	width: 75%;
+	font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, Monotype Corsiva, Florence, cursive;
+	font-size: 130%;
+	line-height: 110%;
+}
+
+#content blockquote.testimonialFloat
+{
+	float: right;
+	/* border: 2 solid #0000C0; */
+	border-style: ridge;
+	border-width: 4px;
+	border-color: #E0E0FF;
+
+	margin: 0px 0px 20px 20px;
+	padding: 0px 10px 0px 10px;
+	background-color: #FFF;
+
+	position: relative;
+	right: -0px;
+	bottom: -0px;
+
+	width: 40%;
+	font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, Monotype Corsiva, Florence, cursive;
+	font-size: 130%;
+	line-height: 110%;
+}
+
+#content table.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content table.location
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+
+#content th.left
+{
+	text-align: left;
+}
+
+#content td.top { vertical-align: top; }
+
+#foot
+{
+	width: 100%;
+	border-top: 1px solid #000000;
+	text-align: center;
+	font-size: 90%;
+	color: rgb(0, 0, 127);
+	clear: both; /* to insure that signature image is above footer */
+}
+
+#foot table
+{
+	color: rgb(255, 255, 255);
+	/* background-color: rgb(190, 190, 190); /* #D0D0FF; */
+	background:-webkit-linear-gradient(top,black, gray);
+	background:linear-gradient(top,black, gray);
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+
+td.leftfoot    { text-align: center; }
+td.rightfoot   { text-align: center; }
+
+blockquote.testimonial
+{
+	font-family: Caflisch Script, Adobe Poetica, Sanvito, Ex Ponto, Snell Roundhand, Zapf-Chancery, Monotype Corsiva, Florence, cursive;
+	font-size: 130%;
+	line-height: 110%;
+}
+
+
+
+</style>
